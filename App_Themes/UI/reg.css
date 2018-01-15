@@ -1,0 +1,43 @@
+.regDiv { width: 540px; overflow: hidden; margin: 0 auto; }
+.regDiv .tab { height: 55px; width: 540px; overflow: hidden; }
+.regDiv .tab ul { width: 110%; }
+.regDiv .tab li { float: left; margin-right: 10px; width: 265px; height: 45px; overflow: hidden; line-height: 45px; text-align: center; color: #FFF; font-size: 18px; font-family: "微软雅黑"; cursor: pointer; background: #00bbcc; }
+.regDiv .tab .li_01 { background: #33aaee; }
+.regDiv .tab .liNow { height: 55px; }
+
+.tabContent { background: #00bbcc; padding: 50px 120px 0 120px; }
+.tabContent_01 { background: #33aaee; }
+
+.tabContent li { height: 54px; overflow: hidden; }
+.tabContent a { color: #FFF; }
+.tabContent .input1 { width: 300px; height: 28px; line-height: 28px; padding: 0 0 0 12px; background: #FFF; border: #CCC solid 1px; font-family: "微软雅黑"; color: #999; float: left; }
+.tabContent .input2 { width: 180px; }
+.tabContent .div0 { clear: both; text-align: right; padding-top: 4px; color: #FFF; }
+.tabContent .btn1 { width: 300px; height: 30px; background: #ff9900; border: #ff6600 solid 1px; font-family: "微软雅黑"; font-size: 14px; color: #FFF; padding-bottom: 5px; }
+
+/*--提示框JS*/
+.right .cnapi .a1 { background: url("/App_Themes/UI/Images/gh2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); }
+.right .cnapi .a0 { background: url("/App_Themes/UI/Images/gh1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); }
+.right .cnapi a { display: inline-block; height: 24px; width: 24px; }
+
+element.style { height: 500px; left: 246px; top: 0; width: 924px; }
+.thickbox { border: 4px solid rgba(0, 0, 0, 0.1); border-radius: 5px 5px 5px 5px; overflow: hidden; padding: 0; position: absolute; z-index: 10000002; }
+.thicktitle { padding: 0; text-align: center; }
+.thicktitle { -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; background: none repeat scroll 0 0 #F3F3F3; border-color: #C4C4C4; border-image: none; border-style: solid; border-width: 1px 1px 0; color: #333333; font-family: arial, "宋体"; font-size: 14px; font-weight: bold; height: 27px; line-height: 27px; padding: 0 10px; }
+.regist-2013 .btnt .btn-img { background: none repeat scroll 0 0 #E4393C; border-radius: 3px 3px 3px 3px; color: #FFFFFF; font-family: "微软雅黑"; font-size: 16px; font-weight: 800; height: 34px; width: 322px; }
+
+
+h4 { font-size: 12px; }
+.thickcon { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #C4C4C4; overflow: auto; padding: 10px; }
+
+
+.regist-2013 .btnt .btn-img { line-height: 34px; margin-left: 300px; margin-top: 20px; }
+.btn-img { border: 0 none; cursor: pointer; margin: 0; overflow: hidden; padding: 0; text-align: center; }
+
+#protocol-con p { line-height: 20px; }
+
+#protocol-con h5 { line-height: 30px; }
+h5 { font-size: 12px; }
+
+.m, .mt, .mc, .mb { overflow: hidden; }
+#protocol-con { height: 356px; overflow: auto; padding: 10px 20px 0 10px; }

@@ -1,0 +1,144 @@
+
+.wal { width: 1000px; }
+
+/*公用样式*/
+.w780 .head .fl { color: #999; padding-bottom: 16px; padding-left: 10px; }
+.w780 .head .fl .red { font-size: 14px; font-family: "Microsoft YaHei"; color: #a00000; display: inline-block; margin: 0px 20px 0px 0px; }
+.w780 .head .fr { color: #000; padding-bottom: 19px; }
+.w780 .head .fr a { color: #666; }
+.w780 .head .fr a:hover { color: #a00000; }
+.w780 .head .fr span { color: #666; }
+/*.w780 .con { border: 1px solid #ccc; background: #fff; color: #666666; overflow: hidden; padding: 10px 20px; }*/
+.w780 .con .midxtab { background: url(/App_Themes/UI/Images/2d.gif) repeat-x 0px 32px; margin-top: 40px; }
+.w780 .con .menu li { float: left; }
+.w780 .con .menu li a { color: #333; display: inline-block; padding: 0 20px; line-height: 32px; }
+.w780 .con .menu li .now { border: 1px solid #000; border-bottom: 0px; background: #fff; color: #a00000; font-weight: 700; }
+.w780 .con .menu li a:hover { text-decoration: none; }
+.w780 .con .menu .gd { color: #333333; line-height: 32px; padding-right: 20px; }
+.w780 .con .cn .ul { display: none; }
+.w780 .con .cn .indexflash .DInnerItem { float: left; width: 234px; background: url(/App_Themes/UI/Images/25.gif) no-repeat right 0; }
+.w780 .con .cn .indexflash .boxDv { width: 886px; margin: 0 auto; overflow: hidden; }
+
+/**/
+
+/*左侧菜单栏*/
+.memberSideNav { width: 158px; overflow: hidden; padding-top: 30px; }
+.memberSideNav li { padding: 0 0 18px 26px; }
+.memberSideNav li img { float: left; margin-right: 6px; position: relative; top: -1px; }
+.memberSideNav .name { padding-bottom: 10px; }
+.memberSideNav a { color: #333; }
+.memberSideNav a:hover, .memberSideNav li li a:hover { color: #009999; }
+.memberSideNav li li { padding: 0 0 0 33px; height: 32px; line-height: 32px; overflow: hidden; }
+.memberSideNav li li a { color: #666; }
+
+/**/
+
+
+
+/*会员中心--提示语句 开始*/
+.infotips { background-color: #F5F5F5; border: 3px solid #eee; color: #666666; height: auto; line-height: 23px; margin: 0 auto; overflow: hidden; padding: 5px 10px; }
+.infotips a { color: #a00000; }
+.infotips .num { color: #a00000; font-family: Tahoma,Arial; font-size: 12px; }
+.infotips span.mo { color: #a00000; }
+/*会员中心--提示语句 结束*/
+
+/*列表查询 开始*/
+.FSearch { height: 30px; overflow: hidden; border-bottom: 1px solid #DDDDDD; padding: 10px 20px 10px 20px; }
+.FSearch .txt { padding: 5px 3px; border: 1px solid #ccc; color: #333; height: 18px; line-height: 18px; }
+.FSearch .w245px { width: 245px; }
+.FSearch .w450px { width: 450px; }
+.FSearch .w160px { width: 160px; }
+.FSearch .w80px { width: 80px; }
+.FSearch .txt.num, .FSearch .num { font-family: Tahoma,Arial; font-size: 12px; color: #000; }
+.FSearch .serchbtn { background: url("/App_Themes/UI/Jic/SerchBtn.gif") no-repeat; border: 0 none; height: 24px; width: 66px; cursor: pointer; }
+/*列表查询 结束*/
+
+/*会员中心--列表 开始*/
+.Mlist { width: 100%; margin: 0 auto; height: auto; overflow: hidden; border: 0px none; margin-top: 10px; }
+.Mlist.NoMt { margin-top: 0px; }
+.Mlist th { color: #111; font-weight: normal; height: 30px; border-bottom: 1px solid #DDDDDD; }
+.Mlist td { text-align: center; color: #666; border-bottom: 1px dashed #dedede; line-height: 20px; padding: 5px 0px; font-family: Arial; }
+.Mlist td.last { border-right: 0px none; }
+table.Mlist tr td.txt { line-height: 20px; }
+table.Mlist tr td.num, table.Mlist tr td .num { font-family: Tahoma,Arial; font-size: 12px; color: #000; }
+.Mlist td.nolist { color: #a00000; font-size: 14px; text-align: center; }
+.Mlist .picimage { width: 75px; height: 75px; overflow: hidden; border: 1px solid #f5f5f5; margin: 0 auto; }
+.Mlist .price { font-size: 12px; color: #a00000; font-family: Tahoma; }
+.Mlist span.red, .Mlist a.red { color: #a00000; font-family: Tahoma; }
+.Mlist td.c999 { color: #999; }
+.Mlist td.pager { padding: 15px 0px; }
+.Mlist a { color: #239BF7; cursor: pointer; }
+/*会员中心--列表 结束*/
+
+/*会员中心--表单 开始*/
+div.MFrmTitle { height: auto; margin-bottom: 10px; overflow: hidden; margin-top: 15px; background: url("/App_Themes/UI/Jic/memberfrmtitle.png") repeat-x; height: 36px; line-height: 36px; padding-left: 16px; color: #666666; font-size: 12px; font-weight: bold; padding-bottom: 9px; }
+div.MFrmTitle a.rbtn { color: #a00000; float: right; margin-right: 20px; font-weight: normal; }
+table.MFrm { width: 782px; height: auto; overflow: hidden; margin: 20px 0px; }
+table.MFrm td { line-height: 26px; padding: 3px 0px; color: #666666; background: url("/App_Themes/UI/Jic/hr_line.png") repeat-x scroll left bottom transparent; text-align: left; }
+table.MFrm td.ar { text-align: right; color: #111; width: 100px; }
+table.MFrm td b { color: #a00000; font-weight: normal; }
+table.MFrm td .txt { padding: 5px 3px; border: 1px solid #ccc; color: #333; height: 18px; line-height: 18px; }
+table.MFrm td .w245px { width: 245px; }
+table.MFrm td .w450px { width: 450px; }
+table.MFrm td .w480px { width: 480px; }
+table.MFrm td .w680px { width: 680px; }
+table.MFrm td .w160px { width: 160px; }
+table.MFrm td .w80px { width: 80px; }
+table.MFrm tr td.num, table.MFrm td .txt.num, table.MFrm tr td .num { font-family: Tahoma,Arial; font-size: 12px; color: #000; }
+table.MFrm .price { font-size: 12px; color: #a00000; font-family: Tahoma,Arial; }
+table.MFrm td .info { color: #999; padding-left: 5px; }
+table.MFrm td .msg { color: #a00000; padding-left: 5px; }
+.searchbtn { background: url("/App_Themes/UI/Jic/memberbtn001.png") no-repeat; border: 0 none; height: 24px; width: 66px; cursor: pointer; }
+/*会员中心--表单 结束*/
+
+/*站内信*/
+.feed_container { border: 1px solid #CCCCCC; clear: both; text-align: left; padding: 5px; margin: 0px 10px; }
+.feed_container a { color: #669900; text-decoration: underline; }
+.feed_container a:hover { color: #009900; }
+.feed_container_hide { display: none; }
+div.cir { cursor: pointer; height: 16px; overflow: hidden; width: 18px; float: left; margin-top: 2px; }
+.Ru { background: url("/App_Themes/UI/member/mail11426e.png") no-repeat scroll -48px 0 transparent; }
+.Rr { background: url("/App_Themes/UI/member/mail11426e.png") no-repeat scroll -48px -16px transparent; }
+
+/*安全中心*/
+.AnquanCenter { height: auto; margin: 10px auto 0; overflow: hidden; width: 100%; }
+.AnquanCenter .OneModelInfo { border: 1px solid #eee; margin-bottom: 10px; margin-top: 10px; overflow: hidden; width: 99%; }
+.AnquanCenter .OneModelInfo .safemc { padding: 10px; }
+.AnquanCenter .tablelist { -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-color: #eee; border-image: none; border-style: solid; border-width: 1px 0 0 1px; width: 99%; }
+.AnquanCenter .tablelist td.namecate { color: #333; font-family: "Microsoft YaHei"; font-size: 18px; font-weight: bold; text-align: center; }
+.AnquanCenter .tablelist td { -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-color: #eee; border-image: none; border-style: solid; border-width: 0 1px 1px 0; height: 32px; line-height: 32px; padding: 30px 0; text-align: center; }
+
+
+/*评论页面*/
+
+.commentForm { background: #fcfffa; padding: 15px 0 0 0; height: 150px; overflow: hidden; position: relative; }
+.commentForm .commstar { background: url("/App_Themes/UI/Image/commstar.jpg") repeat-x scroll 0 -21px rgba(0, 0, 0, 0); display: inline-block; height: 20px; overflow: hidden; position: relative; width: 105px; }
+.commentForm .commstar a { cursor: pointer; display: inline-block; height: 20px; left: 0; position: absolute; top: 0; width: 20%; }
+.commentForm .commstar a:hover, .commentForm .commstar .active { background: url("/App_Themes/UI/Image/commstar.jpg") repeat-x scroll left top rgba(0, 0, 0, 0); }
+.commentForm .commstar .star1 { width: 20%; z-index: 9; }
+.commentForm .commstar .star2 { width: 40%; z-index: 8; }
+.commentForm .commstar .star3 { width: 60%; z-index: 7; }
+.commentForm .commstar .star4 { width: 80%; z-index: 6; }
+.commentForm .commstar .star5 { width: 100%; z-index: 5; }
+.commentForm .div_01 { height: 36px; overflow: hidden; position: relative; padding-left: 95px; line-height: 20px; }
+.commentForm .div_02 { height: 75px; }
+.commentForm .name { position: absolute; z-index: 1; left: 0px; top: 0px; width: 95px; text-align: right; }
+.commentForm .name div { font-weight: 100; }
+.commentForm dd { float: left; padding-right: 15px; _padding-right: 7px; white-space: nowrap; }
+.commentForm dd input { float: left; }
+.commentForm dd img { float: left; margin: 0 3px; position: relative; top: 3px; }
+.commentForm b { float: left; }
+.commentForm textarea { border: #aaa solid 1px; width: 588px; height: 58px; line-height: 18px; overflow: hidden; }
+.commentForm .btn1 { position: absolute; z-index: 10; bottom: 18px; right: 220px; cursor: pointer; background: url(/Style/UI/image/btn2.gif); width: 60px; height: 60px; border: 0px; }
+
+/*分页*/
+.Pagediv, .pagerhtml { width: 100%; height: 25px; text-align: center; overflow: hidden; margin-top: 10px; line-height: 25px; }
+/*风格1*/
+.PagerApp_Themes1 { font-family: Arial; }
+.PagerApp_Themes1 .normalFontColor { color: #111; }
+.PagerApp_Themes1 .allPageNumberFontColor { color: #a00000; font-weight: 700; }
+.PagerApp_Themes1 .indexPageNumberFontColor { color: #a00000; font-weight: 700; }
+.PagerApp_Themes1 a { padding: 4px 6px; border: solid 1px #ddd; background: #fff; text-decoration: none; margin-right: 2px; color: #a00000; }
+.PagerApp_Themes1 a:hover { color: #fff; background: #a00000; border-color: #a00000; text-decoration: none; }
+.PagerApp_Themes1 .nowNumber { color: #a00000; font-weight: 700; padding: 1px 4px; }
+/**/

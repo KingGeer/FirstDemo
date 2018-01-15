@@ -1,0 +1,14 @@
+﻿.Icon{ background-repeat:no-repeat; padding-left:0;}
+
+.MList a{ /*background-image:url(Icon/1.gif);*/  color: #333;padding: 4px 16px;border-left: 2px solid #FFF; font-family:  'Microsoft YaHei'; }
+.MList a:hover{border-left: 2px solid #F90;}
+
+
+
+/*特殊按钮*/
+.SmallButton { display: inline-table; display: -moz-inline-box; display: inline-block; margin: 1px; border-style: solid; border-width: 1px; border-color: #999999; border-top-color: #cccccc; border-left-color: #cccccc; background-color: #eeeeee; color: #333333; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%; white-space: nowrap; height: 21px; line-height: 21px; padding: 0 3px;margin-top: 5px; }
+.SmallButton:link { text-decoration: none; color: #333333; background-color: #eeeeee; }
+.SmallButton:visited { text-decoration: none; color: #333333; background-color: #eeeeee; }
+.SmallButton:active { text-decoration: none; color: #333333; }
+.SmallButton:hover { text-decoration: underline; color: #333333; background-color: #dddddd; }
+

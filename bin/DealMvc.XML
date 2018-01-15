@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DealMvc</name>
+    </assembly>
+    <members>
+        <member name="T:DealMvc.WebService">
+            <summary>
+            WebService基类
+            </summary>
+        </member>
+        <member name="T:DealMvc.WebService.ReJson">
+            <summary>
+            将数据转换为Json格式
+            </summary>
+        </member>
+        <member name="F:DealMvc.WebService.ReJson.ret">
+            <summary>
+            判断是否成功:成功1，失败0
+            </summary>
+        </member>
+        <member name="F:DealMvc.WebService.ReJson.retmsg">
+            <summary>
+            返回消息
+            </summary>
+        </member>
+        <member name="F:DealMvc.WebService.ReJson.moredata">
+            <summary>
+            是否还有下一页
+            </summary>
+        </member>
+        <member name="M:DealMvc.WebService.ReJson.getMoredata">
+            <summary>
+            下一页是否有数据(只针对分页数据)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.WebService.ReJson.setMoredata(System.Boolean)">
+            <summary>
+            下一页是否有数据(只针对分页数据)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.WebService.ReJson.getRet">
+            <summary>
+            判断是否成功(1成0失败)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.WebService.ReJson.setRet(System.Int32)">
+            <summary>
+            判断是否成功(1成0失败)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.WebService.ReJson.getRetMsg">
+            <summary>
+            返回Json数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.WebService.ReJson.setRetMsg(System.String)">
+            <summary>
+            返回Json数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DealMvc.WebService.MySoapHeader">
+            <summary>
+            通过Header验证访问是否被授权
+            </summary>
+        </member>
+        <!-- 对于成员“M:DealMvc.WebService.Encrype.EncrypeDES(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DealMvc.WebService.Encrype.DecrypeDES(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:DealMvc.Ajax">
+            <summary>
+            Ajax 的摘要说明
+            </summary>
+        </member>
+        <member name="F:DealMvc.Ajax.temppath">
+            <summary>
+            临时目录
+            </summary>
+        </member>
+        <member name="F:DealMvc.Ajax.path">
+            <summary>
+            保存文件目录
+            </summary>
+        </member>
+        <member name="M:DealMvc.Ajax.DealAjax(System.String,System.String)">
+            <summary>
+            处理程序
+            </summary>
+            <param name="AjaxSign">区分参数</param>
+            <param name="path">文件地址</param>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsArtcileController.b_BLL_Mall_AdPositions">
+            <summary>
+            实例化 广告位置业务逻辑
+            </summary>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsArtcileController.b_BLL_Mall_AdInfor">
+            <summary>
+            实例化 广告信息业务逻辑
+            </summary>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsArtcileController.b_BLL_Mall_SinglePage">
+            <summary>
+            实例化 单页面业务逻辑
+            </summary>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsArtcileController.b_BLL_Mall_NavMenu">
+            <summary>
+            实例化 导航菜单业务逻辑
+            </summary>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsArtcileController.b_BLL_Mall_Links">
+            <summary>
+            实例化 友情链接业务逻辑
+            </summary>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsAdminsController.b_BLL_Base_Admins">
+            <summary>
+            实例化 管理员业务逻辑
+            </summary>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsAdminsController.b_BLL_M_RoleCate">
+            <summary>
+            实例化 角色业务逻辑
+            </summary>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsAdminsController.b_BLL_Base_AdminsLog">
+            <summary>
+            实例化 管理员操作日志业务逻辑
+            </summary>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsAdminsController.loginAdmins">
+            <summary>
+            当前登录管理员
+            </summary>
+        </member>
+        <member name="M:DealMvc.Controllers.CmsAdminsController.Lock(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            账号锁定
+            </summary>
+            <param name="id">编号</param>
+            <param name="Page">页码</param>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.Controllers.CmsAdminsController.Unlock(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            账号解锁
+            </summary>
+            <param name="id">编号</param>
+            <param name="Page">页码</param>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.Controllers.CmsAdminsController.GetAdminPowerValues(System.Nullable{System.Int32})">
+            <summary>
+            获取帐号类型的权限值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DealMvc._Default">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DealMvc._Default.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:DealMvc.VerifyCodeImage">
+            <summary>
+            VerifyCodeImage 的摘要说明
+            </summary>
+        </member>
+        <member name="M:DealMvc.VerifyCodeImage.ProcessRequest(System.Web.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="P:DealMvc.VerifyCodeImage.IsReusable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:DealMvc.MvcApplication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DealMvc.MvcApplication.RegisterRoutes(System.Web.Routing.RouteCollection)">
+            <summary>
+            
+            </summary>
+            <param name="routes"></param>
+        </member>
+        <member name="M:DealMvc.MvcApplication.Application_Start">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DealMvc.MvcApplication.Application_BeginRequest(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:DealMvc.Controllers.CompressAttribute">
+            <summary>
+            页面头压缩
+            </summary>
+        </member>
+        <member name="M:DealMvc.Controllers.CompressAttribute.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>
+            
+            </summary>
+            <param name="filterContext"></param>
+        </member>
+        <member name="T:DealMvc.Controllers.CmsController">
+            <summary>
+            登录相关
+            </summary>
+        </member>
+        <member name="M:DealMvc.Controllers.CmsController.Index(System.String,System.String,System.String)">
+            <summary>
+            后台登陆页面
+            </summary>
+            <param name="username"></param>
+            <param name="userpwd"></param>
+            <param name="usercode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.Controllers.CmsController.Do">
+            <summary>
+            后台主业
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.Controllers.CmsController.Logout">
+            <summary>
+            注销
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.Controllers.CmsController.NoAuthorize">
+            <summary>
+            没有权限提示页面
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.Controllers.CmsController.ClearWebCache">
+            <summary>
+            清空所有的数据缓存
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DealMvc.Controllers.CommController">
+            <summary>
+            公用类
+            </summary>
+        </member>
+        <member name="M:DealMvc.Controllers.CommController.TypeChange(System.String)">
+            <summary>
+            快递类型转换
+            </summary>
+            <param name="typeCom"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DealMvc.Controllers.CommController.KuaiDiAPINoVali(System.String,System.String)">
+            <summary>
+            返回运单详情
+            </summary>
+            <param name="typeCom">快递公司</param>
+            <param name="nu">运单号</param>
+            <returns></returns>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsSiteController.b_BLL_Base_AdminsLog">
+            <summary>
+            实例化 管理员操作日志业务逻辑
+            </summary>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsSiteController.loginAdmins">
+            <summary>
+            当前登录管理员
+            </summary>
+        </member>
+        <member name="F:DealMvc.Controllers.CmsSiteController.b_BLL_Base_MSGTemplate">
+            <summary>
+            信息模板业务逻辑
+            </summary>
+        </member>
+        <member name="T:DealMvc.APPHandler">
+            <summary>
+            APPHandler 的摘要说明
+            </summary>
+        </member>
+    </members>
+</doc>

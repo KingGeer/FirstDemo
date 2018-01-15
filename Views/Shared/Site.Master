@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<%--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">--%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<%
+    //网站是否是关闭状态
+    DealMvc.Common.Config.SiteInfo m_SiteInfo = DealMvc.Common.Config.ConfigInfo<DealMvc.Common.Config.SiteInfo>.Instance();
+    if (m_SiteInfo.SiteStatus != "1") { Response.Clear(); Response.Write(m_SiteInfo.StopSiteStatusDes.ToString2()); Response.End(); }
+    /////////////////////////////////////////////////////////////////////////////////////
+
+    HeaderHelper1._ViewContext = ViewContext;
+%>
+<head>
+    <Jessica:HeaderHelper ID="HeaderHelper1" runat="server" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="/JS/Comm/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="/JS/Comm/jquery-color.js" type="text/javascript"></script>
+    <script src="/JS/Comm/public.js" type="text/javascript"></script>
+    <script src="/JS/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+
+    <script src="/kindeditor/kindeditor-min.js" type="text/javascript"></script>
+    <script src="/kindeditor/lang/zh_CN.js" type="text/javascript"></script>
+    <link href="/KindEditor/themes/default/default.css" rel="stylesheet" type="text/css" />
+    <script src="/JS/Comm/Dialog.js" type="text/javascript"></script>
+    <script src="/JS/Comm/JVerify.js" type="text/javascript"></script>
+    <script src="/JS/Comm/sM.js" type="text/javascript"></script>
+
+    <link href="/App_Themes/Public/sM.css" rel="stylesheet" type="text/css" />
+    <link href="/App_Themes/Public/Dialog.css" rel="stylesheet" type="text/css" />
+    <link href="/App_Themes/Public/PagerStyle.css" rel="stylesheet" type="text/css" />
+    <link href="/App_Themes/Public/Public.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <%Html.RenderPartial("SiteMap"); %>
+</body>
+<Jessica:SFrom ID="SFrom1" runat="server" close="false" />
+</html>
+<%Html.RenderPartial("JSBottom"); %>

@@ -1,0 +1,63 @@
+.orderbox { width: 980px; height: auto; margin: auto; }
+/*订单产品*/
+.cartTitle { padding: 31px 0 17px; color: #000000; font-size: 16px; }
+.cartTable { background: none repeat scroll 0 0 #fff; border: solid 1px #dddddd; border-top: 2px solid #0097dc; color: #666; }
+.cartTable .msg { height: 36px; line-height: 36px; padding-right: 18px; text-align: right; }
+.cartTable .trcolor { background-color: #f5f5f5; }
+.cartTable th { border-bottom: 1px solid #ccc; color: #333; font-weight: 100; height: 36px; }
+.cartTable td { border-bottom: 1px dashed #ccc; height: 74px; line-height: 24px; text-align: center; }
+.cartTable td .aa { color: #0097dc; padding: 0px 5px; }
+.cartTable .td_01 { text-align: left; }
+.cartTable .imgDiv { float: left; padding: 0 10px 0 60px; }
+.cartTable .imgDiv img { border: 1px solid #ccc; padding: 1px; }
+.cartTable .name { float: left; width: 152px; }
+/*收货地址信息*/
+.cartAddress { background: none repeat scroll 0 0 #fff; border: solid 1px #dddddd; color: #666; }
+.cartAddress li { min-height: 38px; _height: 38px; position: relative; padding-left: 52px; }
+.cartAddress .liNow { background: #f5f5f5; border-bottom: 1px dashed #ccc; border-top: 1px dashed #ccc; }
+.cartAddress .radio { position: absolute; z-index: 1; left: 26px; top: 10px; }
+.cartAddress .content { line-height: 38px; color: #666; }
+.cartAddress .content span { padding-left: 30px; }
+.cartAddress .btn { position: absolute; z-index: 10; top: 0px; right: 10px; line-height: 38px; white-space: nowrap; }
+.cartAddress .name1 { height: 38px; line-height: 38px; overflow: hidden; }
+.cartAddress dd { height: 36px; overflow: hidden; position: relative; line-height: 20px; padding-left: 80px; margin-left: 0px; }
+.cartAddress dd select { height: 24px; }
+.cartAddress .name { position: absolute; z-index: 1; left: 0px; top: 5px; white-space: nowrap; }
+.cartAddress .name .red { padding-right: 6px; }
+.cartAddress .input1 { float: left; width: 338px; height: 22px; line-height: 22px; padding: 0 5px; border: #aaa solid 1px; color: #666; margin-right: 10px; }
+.cartAddress .input2 { width: 248px; }
+.cartAddress .AddressSub { width: 150px; border: 1px solid #3388cc; border-radius: 5%; background: white; color: #3388cc; }
+
+/*配送时间段*/
+.PeisongModel { background: none repeat scroll 0 0 #fff; border: solid 1px #dddddd; color: #666; }
+.PeisongModel { padding: 20px 0 10px 20px; }
+.PeisongModel .sendmodel .onetitle { color: #666; font-weight: bold; }
+.PeisongModel .sendmodel .radioclass { margin-top: 0px; }
+.PeisongModel .sendmodel tr { height: 20px; line-height: 24px; }
+
+/*发票信息*/
+.cartInvoice { background: none repeat scroll 0 0 #fff; border: solid 1px #dddddd; color: #666; }
+.cartInvoice { padding: 20px 0 10px 20px; }
+.cartInvoice li { height: 30px; overflow: hidden; }
+.cartInvoice .input1 { width: 138px; height: 18px; line-height: 18px; padding: 0 5px; border: #aaa solid 1px; color: #666; }
+/*提交按钮*/
+.cartBtn { background: none repeat scroll 0 0 #fff; border: solid 1px #dddddd; color: #666; height: 62px; }
+.cartBtn .LeftButton { padding-top: 25px; }
+.cartBtn .RightButton { padding-top: 15px; }
+.cartBtn li { float: left; padding: 0 6px; }
+.cartBtn li .Orange { color: #ff6600; }
+.cartBtn li .font24 { font-size: 24px; color: #ff6600; }
+.cartBtn .checkbox { float: left; position: relative; top: 13px; margin-right: 5px; }
+.cartBtn .btn { display: block; width: 100px; height: 30px; line-height: 22px; text-align: center; overflow: hidden; background: #3388cc; color: #FFF; font-size: 14px; position: relative; padding-top: 7px; border-radius: 5px; margin-top: -2px; }
+
+
+/****************************************下单成功********************************************************************/
+
+.orderOK { text-align: center; line-height: 30px; color: #666; }
+.orderOK .content .YFPrice { color: #ff6600; font-size: 14px; }
+.orderOK .link a { padding-left: 5px; font-size: 13px; }
+.orderOK h1 { font-size: 28px; font-weight: 100; padding: 155px 0 18px 0; color: #333; }
+.orderOK .btn { padding: 30px 0; }
+.orderOK .btn a { display: block; width: 118px; height: 22px; line-height: 22px; text-align: center; background: #ff9900; border: #ff6600 solid 1px; color: #FFF; font-size: 14px; font-weight: bold; margin: 0 auto; }
+.orderPayCate { background: none repeat scroll 0 0 #fff; border: solid 1px #dddddd; color: #666; }
+.PayButton a { display:block; background: #3388cc; width: 120px; height: 26px; color:White; border-radius:5px; padding-top:3px; font-size:14px; }
