@@ -1,4 +1,0 @@
-----------异常日志----------
-[2015/3/2 15:45:21]ZKZX-00000     System.Web.Mvc.UrlHelper     [Controller:member][Action:recharge]可为空的对象必须具有一个值。[   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   在 System.Nullable`1.get_Value()
-   在 DealMvc.Controllers.MemberController.Recharge(Nullable`1 PayCate, Nullable`1 PayMoney) 位置 F:\下酒菜项目\DealMvc\Controllers\MemberController.cs:行号 994]     严重     未知异常
